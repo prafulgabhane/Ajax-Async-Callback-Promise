@@ -31,12 +31,12 @@ function makeAJAXCall(methodType, url, callback, async = true, data = null) {
     console.log(methodType + " Request sent to server at: " + showTime());
 }
 
-// const getURL = "http://localhost:3000/employees/1";
-// function getUserDetails(data) {
-//     console.log("\nGet User Data At: " + showTime() + "\nData:" + data);
-// }
-// makeAJAXCall("GET", getURL, getUserDetails, true);
-// console.log("\nMade GET AJAX Call to Server at: " + showTime());
+const getURL = "http://localhost:3000/employees/1";
+function getUserDetails(data) {
+    console.log("\nGet User Data At: " + showTime() + "\nData:" + data);
+}
+makeAJAXCall("GET", getURL, getUserDetails, true);
+console.log("\nMade GET AJAX Call to Server at: " + showTime());
 
 const deleteURL = "http://localhost:3000/employees/4";
 function userDeleted(data) {
@@ -51,3 +51,4 @@ function userAdded(data) {
     console.log("User Added: " + data);
 }
 makeAJAXCall("POST", postURL, userAdded, true, emplData);
+console.log("\nMade POST AJAX Call to Server at: " + showTime());
