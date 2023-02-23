@@ -46,7 +46,7 @@ makeAJAXCall("DELETE", deleteURL, userDeleted, true);
 console.log("\nMade DELETE AJAX Call to Server at: " + showTime());
 
 const postURL = "http://localhost:3000/employees";
-const emplData = { "name": "Bakugo", "salary": "100000" };
+const emplData = { "name": "Praful", "salary": "100000" };
 function userAdded(data) {
     console.log("User Added: " + data);
 }

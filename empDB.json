@@ -2,22 +2,22 @@
   "employees": [
     {
       "id": 1,
-      "name": "Killua",
+      "name": "Praful",
       "salary": "200000"
     },
     {
       "id": 2,
-      "name": "Gon",
+      "name": "Ganesh",
       "salary": "500000"
     },
     {
-      "name": "Dwight",
+      "name": "Gabhane",
       "salary": "100000",
       "id": 3
     },
     {
-      "name": "Bakugo",
-      "salary": "1000000",
+      "name": "Pragati",
+      "salary": "100000",
       "id": 4
     }
   ]
